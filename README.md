@@ -16,6 +16,8 @@ In FanStat, users will be able to:
 
 Wireframes:
 
+https://wireframe.cc/pro/pp/e4af965c3459810
+
 The NavLinks header will include information about the functionality of the data visualizer and links to my personal pages.  
 
 On the left will be a section of AFC teams and NFC teams that and be clicked to pull up a collection of teams that can be further sorted into players.  
