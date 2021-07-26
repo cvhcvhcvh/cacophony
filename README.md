@@ -4,12 +4,10 @@ FanStat is a classic data visualizer that utilizes D3.js to create a functional 
 
 ## Functionality and MVPs:
 
-In FanStat, users will be able to:
+* render key fantasy football stats 
+* visualize the data as a color-coded bubble graph
+* search for NFL players
 
-* search for a player by: name, position, team
-* categorize by season
-**toggle between NFL stats and corresponding fantasy stats/points**
-**view trending players in the fantasy football landscape**
 
 ## Wireframes:
 
