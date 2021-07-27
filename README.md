@@ -1,17 +1,19 @@
 ## Background:
 
-FanStat is a classic data visualizer that utilizes D3.js to create a functional yet inspiring backdrop for statistical analysis of fantasy football data. A player can be searched by name, position, or team. Once selected, certain key stats are displayed on the page in a bubble and colored format. Only stats that are deemed relevant for fantasy football will be displayed. Successful stats will be shown proportionally as well as color-coded. Red stats: poor; yellow stats: neutral; green stats: good.
+FanStat is an interactive symphonic coloring book that allows users to choose from an array of colors that correspond to a different musical loop whereby filling an empty space on the image with a color also begins playback of a particular instrument or loop.  Once the image is colored, the image will contain all of the associated sound tracks, and the user will be able to click around the image to play the music.  
 
 ## Functionality and MVPs:
 
-* render key fantasy football stats 
-* visualize the data as a color-coded bubble graph
-* search for NFL players
+* render a blank coloring book image 
+* incorporate a color palette with corresponding sounds
+* paint with "sound color":  each click will initialize the sound
+* once image is complete, be able to click around to play different sounds via a solo button or play the wholo image as a loop via the play button
 
 
 ## Wireframes:
 
-https://wireframe.cc/pro/pp/e4af965c3459810
+<img width="1024" alt="Screen Shot 2021-07-27 at 1 58 36 PM" src="https://user-images.githubusercontent.com/77473921/127212222-6e1a3703-ecef-4646-995f-a1d87ad42f04.png">
+
 
 The NavLinks header will include information about the functionality of the data visualizer and links to my personal pages.
 
