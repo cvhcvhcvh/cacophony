@@ -7,38 +7,35 @@ FanStat is an interactive symphonic coloring book that allows users to choose fr
 * render a blank coloring book image 
 * incorporate a color palette with corresponding sounds
 * paint with "sound color":  each click will initialize the sound
-* once image is complete, be able to click around to play different sounds via a solo button or play the wholo image as a loop via the play button
+* once image is complete, be able to click around to play different sounds via a "solo" button or "play" the whole image as a loop via the play button
 
 
 ## Wireframes:
 
 <img width="1024" alt="Screen Shot 2021-07-27 at 1 58 36 PM" src="https://user-images.githubusercontent.com/77473921/127212222-6e1a3703-ecef-4646-995f-a1d87ad42f04.png">
 
+* Below the image will be the color palette 
 
-The NavLinks header will include information about the functionality of the data visualizer and links to my personal pages.
+* On the left will be the "solo" and "play" buttons
 
-* On the left will be a section of AFC teams and NFC teams that and be clicked to pull up a collection of teams that can be further sorted into players.
-
-* On the right will be a search bar for players, as well as dropdown filters to select certain players by position.
-
-* The middle will include the bubble chart of player stats.
 
 ## Technologies and APIs:
 
 This project will be implemented with the following technologies:
 
-* D3.js to render the data in a color-coded bubble map format 
+* SVG to create graphic illustrations of the coloring book
+* Tone.js to grab a cascade of sounds for each individual color
 * Webpack and Babel to bundle and transpile the source 
-* JavaScript code npm to manage project dependencies NFL reference library for stats
+* JavaScript code npm to manage project dependencies
 
 ## Implementation Timeline:
 
-Monday: Setup project, including getting webpack up and running. Figure out how to reference NFL stats and get them to render on page.
+Monday: Setup project, try to learn NFL API, realize it's garbage and bail.  
 
-Tuesday: Get search functionality implemented whereby players will be pulled from the library successfully. Once completed, successfully enhance search feature with use of dropdown tabs to search by position. Also, make sure searching players through team lineups is doable.
+Tuesday: Research SVG and Tone.js to lay framework for sound coloring; build out CSS map.
 
-Wednesday: Once players are pulled successfully, localize all important stats that are deemed necessary for fantasy football standards. After a rubric is set, get those stats to utilize D3.js and render in a bubble format.
+Wednesday: Pull sounds from Tone.js library and tie them to individual colors; make sounds play when color is chosen and applied to the image.  
 
-Thursday: Finish graph layout, work on NavLinks.
+Thursday: Finish logic for playing sounds, work on NavLinks.
 
 Friday: Deploy to GitHub pages. If time, rewrite this proposal as a production README.
