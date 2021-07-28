@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 50px 0px 30px 0px;
+  text-align: center;
+  font-size: 40px;
+}
+header p {
+  font-size: 25px;
+}
+
+.pads {
+  background: black;
+  width: 100%;
+  display: flex;
+  border-radius: 20px;
+}
+.pads > div {
+  height: 100px;
+  width: 100px;
+  flex: 1;
+  border-radius: 20px;
+}
+.pad1 {
+  background: #60d394;
+}
+.pad2 {
+  background: #d36060;
+}
+.pad3 {
+  background: #c060d3;
+}
+.pad4 {
+  background: #d3d160;
+}
+.pad5 {
+  background: #606bd3;
+}
+.pad6 {
+  background: #60c2d3;
+}
+.pad7 {
+  background: #e48f2f;
+}
+
+.pad8 {
+  background: #257206;
+}
+.pad9 {
+  background: #e42f2f;
+}
+.pad10 {
+  background: #7a7a7a;
+}
+.pad11 {
+  background: #652fe4;
+}
+.pad12 {
+  background: #0e35e4;
+}
+.pad13 {
+  background: #f9fd00;
+}
+.pad14 {
+  background: #e42fb7;
+}
+.pad15 {
+  background: #ff95e8;
+}
+.pad16 {
+  background: #2fa2e4;
+}
+.pad17 {
+  background: #006308a1;
+}
+.pad18 {
+  background: #49005c;
+}
+.pad19 {
+  background: #4de42f;
+}
+.pad20 {
+  background: #8ef4ff;
+}
+.pad21 {
+  background: #eb615c;
+}
+.pad22 {
+  background: #8e6fff;
+}
+.pad23 {
+  background: #ffffff;
+}
+.pad24 {
+  background: #15c505;
+}
+.pad25 {
+  background: #2fe48f;
+}
+
+
+
+.visual > div {
+  position: absolute;
+  bottom: 0%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  transform: scale(1);
+  z-index: -1;
+}
+
+@keyframes jump {
+  0% {
+    bottom: 0%;
+    left: 20%;
+  }
+  50% {
+    bottom: 50%;
+    left: 50%;
+  }
+
+  100% {
+    bottom: 00%;
+    left: 80%;
+  }
+}
+

@@ -1,0 +1,36 @@
+{
+  "name": "fanstat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "browserslist": [
+    "defaults"
+  ],
+  "scripts": {
+    "webpack": "webpack --watch --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.15.2",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
+    "css-loader": "^6.2.0",
+    "csv": "^5.5.0",
+    "d3": "^7.0.0",
+    "mini-css-extract-plugin": "^2.1.0",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.36.0",
+    "sass-loader": "^12.1.0",
+    "stream-http": "^3.2.0",
+    "tone": "^14.7.77",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2",
+    "yahoo-fantasy": "^4.1.5"
+  }
+}
