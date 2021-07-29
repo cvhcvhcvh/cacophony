@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: black;
+  background-color: white;
 }
 
 body {
@@ -17,6 +17,22 @@ body {
   align-items: center;
 }
 
+/* @keyframes jump {
+  0% {
+    bottom: 0%;
+    left: 20%;
+  }
+  50% {
+    bottom: 50%;
+    left: 50%;
+  }
+
+  100% {
+    bottom: 00%;
+    left: 80%;
+  }
+} */
+
 header h1 {
   margin: 50px 0px 30px 0px;
   text-align: center;
@@ -26,96 +42,93 @@ header p {
   font-size: 25px;
 }
 
-.pads {
-  background: black;
+.dots {
+  background: white;
   width: 100%;
   display: flex;
   border-radius: 20px;
+  justify-content: space-evenly;
+  
 }
-.pads > div {
-  height: 100px;
-  width: 100px;
-  flex: 1;
-  border-radius: 20px;
-}
-.pad1 {
-  background: #60d394;
-}
-.pad2 {
-  background: #d36060;
-}
-.pad3 {
-  background: #c060d3;
-}
-.pad4 {
-  background: #d3d160;
-}
-.pad5 {
-  background: #606bd3;
-}
-.pad6 {
-  background: #60c2d3;
-}
-.pad7 {
-  background: #e48f2f;
+.dots > div {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  display: inline-block;
 }
 
-.pad8 {
-  background: #257206;
+.dot1 {
+  background: #920000;
 }
-.pad9 {
-  background: #e42f2f;
+.dot2 {
+  background: #b90000;
 }
-.pad10 {
-  background: #7a7a7a;
+.dot3 {
+  background: #ff0000;
 }
-.pad11 {
-  background: #652fe4;
+.dot4 {
+  background: #f53131;
 }
-.pad12 {
-  background: #0e35e4;
+.dot5 {
+  background: #ffc400;
 }
-.pad13 {
-  background: #f9fd00;
+.dot6 {
+  background: #fffb00;
 }
-.pad14 {
-  background: #e42fb7;
+.dot7{
+  background: #ffee00;
 }
-.pad15 {
-  background: #ff95e8;
+.dot8 {
+  background: #88ff00;
 }
-.pad16 {
-  background: #2fa2e4;
+.dot9 {
+  background: #1eff00;
 }
-.pad17 {
-  background: #006308a1;
+.dot10 {
+  background: #00ff6a;
 }
-.pad18 {
-  background: #49005c;
+.dot11 {
+  background: #00ffd5;
 }
-.pad19 {
-  background: #4de42f;
+.dot12 {
+  background: #00f5fd;
 }
-.pad20 {
-  background: #8ef4ff;
+.dot13 {
+  background: #00ccff;
 }
-.pad21 {
-  background: #eb615c;
+.dot14 {
+  background: #0084ff;
 }
-.pad22 {
-  background: #8e6fff;
+.dot15 {
+  background: #0059ff;
 }
-.pad23 {
-  background: #ffffff;
+.dot16 {
+  background: #1900ff;
 }
-.pad24 {
+.dot17 {
+  background: #4c00ff;
+}
+.dot18 {
+  background: #9900ff;
+}
+.dot19 {
+  background: #8500b9;
+}
+.dot20 {
+  background: #e100ff;
+}
+.dot21 {
+  background: #ff00c8;
+}
+.dot22 {
+  background: #ff004c;
+}
+/* .dot23 {
   background: #15c505;
 }
-.pad25 {
+.dot24 {
   background: #2fe48f;
-}
-
-
+} */
 
 .visual > div {
   position: absolute;

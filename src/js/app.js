@@ -1,43 +1,40 @@
 // import * as Tone from 'tone';
 
 window.addEventListener("load", () => {
-  const sounds = document.querySelectorAll(".sound");
-  const pads = document.querySelectorAll(".pads div");
+  const beats = document.querySelectorAll(".beat");
+  const dots = document.querySelectorAll(".dots div");
   const visual = document.querySelector(".visual");
   const colors = [
-    "#60d394",
-    "#d36060",
-    "#c060d3",
-    "#d3d160",
-    "#606bd3",
-    "#60c2d3", 
-    "#e48f2f", 
-    "#257206",
-    "#e42f2f",
-    "#7a7a7a",
-    "#652fe4",
-    "#0e35e4",
-    "#f9fd00",
-    "#e42fb7",
-    "#ff95e8",
-    "#2fa2e4",
-    "#006308a1",
-    "#49005c",
-    "#4de42f",
-    "#8ef4ff",
-    "#eb615c",
-    "#8e6fff",
-    "#ffffff",
-    "#15c505",
-    "#2fe48f",
+    "#920000",
+    "#b90000",
+    "#ff0000",
+    "#f53131",
+    "#ffc400",
+    "#fffb00",
+    "#ffee00",
+    "#88ff00",
+    "#1eff00",
+    "#00ff6a",
+    "#00ffd5",
+    "#00f5fd",
+    "#00ccff",
+    "#0084ff",
+    "#0059ff",
+    "#1900ff",
+    "#4c00ff",
+    "#9900ff",
+    "#8500b9",
+    "#e100ff",
+    "#ff00c8",
+    "#ff004c",
   ];
 
 
-// Create sounds
-  pads.forEach((pad, index) => {
-    pad.addEventListener("click", function() {
-      sounds[index].currentTime = 0;
-      sounds[index].play();
+
+  dots.forEach((dot, index) => {
+    dot.addEventListener("click", function() {
+      beats[index].currentTime = 0;
+      beats[index].play();
       createBubble(index);
 
 
