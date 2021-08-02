@@ -2,157 +2,120 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: white;
 }
 
-body {
-  font-family: "Raleway", sans-serif;
-}
-
-.app {
-  min-height: 100vh;
+.shell {
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* @keyframes jump {
-  0% {
-    bottom: 0%;
-    left: 20%;
-  }
-  50% {
-    bottom: 50%;
-    left: 50%;
-  }
-
-  100% {
-    bottom: 00%;
-    left: 80%;
-  }
-} */
-
-header h1 {
-  margin: 50px 0px 30px 0px;
-  text-align: center;
-  font-size: 40px;
-}
-header p {
-  font-size: 25px;
-}
-
-.dots {
-  background: white;
-  width: 100%;
-  display: flex;
-  border-radius: 20px;
   justify-content: space-evenly;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.time-select,
+.sound-picker {
+  /* height: 80%; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  flex: 1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.time-select button,
+.sound-picker button {
+  color: white;
+  width: 30%;
+  height: 10%;
+  background: none;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  border: 2px solid white;
+  transition: all 0.5s ease;
+}
+
+.sound-picker button {
+  border: none;
+  height: 120px;
+  width: 120px;
+  padding: 30px;
+  border-radius: 50%;
+}
+.sound-picker button:nth-child(1) {
+  background: #ff45ab;
+}
+.sound-picker button:nth-child(2) {
+  background: #d15bff;
+}
+.sound-picker button img {
+  height: 100%;
+}
+
+.time-select button:hover {
+  background: white;
+  color: black;
+}
+
+.player-container {
+  position: relative;
+  height: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  /* padding: 300px; */
+}
+
+.player-container svg {
+  position: absolute;
+  height: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  pointer-events: none;
   
 }
-.dots > div {
-  height: 25px;
-  width: 25px;
-  border-radius: 50%;
-  display: inline-block;
+.player-container svg circle {
+  transition: all 0.2s ease-in-out;
 }
-
-.dot1 {
-  background: #920000;
-}
-.dot2 {
-  background: #b90000;
-}
-.dot3 {
-  background: #ff0000;
-}
-.dot4 {
-  background: #f53131;
-}
-.dot5 {
-  background: #ffc400;
-}
-.dot6 {
-  background: #fffb00;
-}
-.dot7{
-  background: #ffee00;
-}
-.dot8 {
-  background: #88ff00;
-}
-.dot9 {
-  background: #1eff00;
-}
-.dot10 {
-  background: #00ff6a;
-}
-.dot11 {
-  background: #00ffd5;
-}
-.dot12 {
-  background: #00f5fd;
-}
-.dot13 {
-  background: #00ccff;
-}
-.dot14 {
-  background: #0084ff;
-}
-.dot15 {
-  background: #0059ff;
-}
-.dot16 {
-  background: #1900ff;
-}
-.dot17 {
-  background: #4c00ff;
-}
-.dot18 {
-  background: #9900ff;
-}
-.dot19 {
-  background: #8500b9;
-}
-.dot20 {
-  background: #e100ff;
-}
-.dot21 {
-  background: #ff00c8;
-}
-.dot22 {
-  background: #ff004c;
-}
-/* .dot23 {
-  background: #15c505;
-}
-.dot24 {
-  background: #2fe48f;
-} */
-
-.visual > div {
+.time-display {
+  color: white;
   position: absolute;
-  bottom: 0%;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  transform: scale(1);
-  z-index: -1;
+  font-size: 50px;
+  bottom: 10%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-@keyframes jump {
-  0% {
-    bottom: 0%;
-    left: 20%;
-  }
-  50% {
-    bottom: 50%;
-    left: 50%;
-  }
-
-  100% {
-    bottom: 00%;
-    left: 80%;
-  }
+video {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: -10;
+  min-width: 100%; 
+  min-height: 100%; 
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  
 }
 
+.footer{
+  position: fixed;  
+  left: 10px;  
+  bottom: 5px;  
+  right: 10px;   
+  width: 95%;  
+  color: white;  
+  text-align: center;  
+}
+
+.git img{
+  height: 50%;
+  width: 50%;
+}
