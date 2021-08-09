@@ -12,8 +12,8 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.time-select,
-.sound-picker {
+.time,
+.sound {
   /* height: 80%; */
   display: flex;
   justify-content: space-evenly;
@@ -22,8 +22,8 @@
   flex: 1;
   font-family: Arial, Helvetica, sans-serif;
 }
-.time-select button,
-.sound-picker button {
+.time button,
+.sound button {
   color: white;
   width: 30%;
   height: 10%;
@@ -35,24 +35,24 @@
   transition: all 0.5s ease;
 }
 
-.sound-picker button {
+.sound button {
   border: none;
   height: 120px;
   width: 120px;
   padding: 30px;
   border-radius: 50%;
 }
-.sound-picker button:nth-child(1) {
+.sound button:nth-child(1) {
   background: #ff45ab;
 }
-.sound-picker button:nth-child(2) {
+.sound button:nth-child(2) {
   background: #d15bff;
 }
-.sound-picker button img {
+.sound button img {
   height: 100%;
 }
 
-.time-select button:hover {
+.time button:hover {
   background: white;
   color: black;
 }
@@ -80,7 +80,7 @@
 .player-container svg circle {
   transition: all 0.2s ease-in-out;
 }
-.time-display {
+.time-shown {
   color: white;
   position: absolute;
   font-size: 50px;
