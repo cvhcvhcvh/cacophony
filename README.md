@@ -11,8 +11,7 @@ Cacophony is an interactive symphonic coloring book that allows users to choose 
 
 
 ## Wireframes:
-
-<img width="1024" alt="Screen Shot 2021-07-27 at 1 58 36 PM" src="https://user-images.githubusercontent.com/77473921/127212222-6e1a3703-ecef-4646-995f-a1d87ad42f04.png">
+<img width="941" alt="Screen Shot 2021-08-10 at 10 09 41 AM" src="https://user-images.githubusercontent.com/77473921/128892272-23ceca86-eeff-4f82-84ff-3fd89f04540e.png">
 
 * Below the image will be the color palette 
 
