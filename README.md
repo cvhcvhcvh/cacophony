@@ -1,40 +1,24 @@
 ## Background:
 
-test
+Float is an interactive mindfulness app that helps users relax and alleviate stress through audio and visual decompression.  Users choose both temporal and thematic constraints based on availability so that maximum functionality can be achieved for each specific user.  Instructions on how to choose each time parameter and audio/visual cue will dictate the duration of the meditation.  A user can choose to float for 1 minute, 5 minutes, or 10 minutes while also deciding between two distinct preset songs and backgrounds.  
 
 ## Functionality and MVPs:
 
-* render a blank coloring book image 
-* incorporate a color palette with corresponding sounds
-* paint with "sound color":  each click will initialize the sound
-* once image is complete, be able to click around to play different sounds via a "solo" button or "play" the whole image as a loop via the play button
+* render instructions on how to "float" (choosing a set time and theme)
+* allow the app to run for 1 minute, 5 minutes, or 10 minutes 
+* allow the app to display two different themes, each capable of running the duration of the chosen time
+* allow the user play/pause functionality that pauses both the audio and visual components of the app
 
 
 ## Wireframes:
 <img width="941" alt="Screen Shot 2021-08-10 at 10 09 41 AM" src="https://user-images.githubusercontent.com/77473921/128892272-23ceca86-eeff-4f82-84ff-3fd89f04540e.png">
 
-* Below the image will be the color palette 
-
-* On the left will be the "solo" and "play" buttons
-
-
 ## Technologies and APIs:
 
 This project will be implemented with the following technologies:
 
-* SVG to create graphic illustrations of the coloring book
-* Tone.js to grab a cascade of sounds for each individual color
+* SVG to incorporate functional buttons (play, pause, two different themes)
+* Implementing .wav, .mp3, and .mp4 files
 * Webpack and Babel to bundle and transpile the source 
 * JavaScript code npm to manage project dependencies
 
-## Implementation Timeline:
-
-Monday: Setup project, try to learn NFL API, realize it's garbage and bail.  
-
-Tuesday: Research SVG and Tone.js to lay framework for sound coloring; build out CSS map.
-
-Wednesday: Pull sounds from Tone.js library and tie them to individual colors; make sounds play when color is chosen and applied to the image.  
-
-Thursday: Finish logic for playing sounds, work on NavLinks.
-
-Friday: Deploy to GitHub pages. If time, rewrite this proposal as a production README.
