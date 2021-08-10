@@ -113,9 +113,15 @@ video {
   width: 95%;  
   color: white;  
   text-align: center;  
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .git img{
   height: 50%;
   width: 50%;
+}
+.footer-logo{
+  color: white;
+  font-size: 26px;
 }
