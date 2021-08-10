@@ -1,6 +1,6 @@
 ## Background:
 
-Cacophony is an interactive symphonic coloring book that allows users to choose from an array of colors that correspond to a different musical loop whereby filling an empty space on the image with a color also begins playback of a particular instrument or loop.  Once the image is colored, the image will contain all of the associated sound tracks, and the user will be able to click around the image to play the music.  
+test
 
 ## Functionality and MVPs:
 
