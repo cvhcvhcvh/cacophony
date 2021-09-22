@@ -6,9 +6,10 @@ const timeShown = document.querySelector(".time-shown");
 const time = document.querySelectorAll(".time button");
 let timeSpan = 600;
 
-timeShown.textContent = `${Math.floor(timeSpan / 60)}:${Math.floor(
+timeShown.textContent = `${Math.floor(timeSpan / 60)}:${"0" + Math.floor(
   timeSpan % 60
 )}`;
+
 
 sounds.forEach(sound => {
   sound.addEventListener("click", function() {
@@ -30,7 +31,7 @@ const restart = song =>{
 time.forEach(option => {
   option.addEventListener("click", function() {
     timeSpan = this.getAttribute("data-time");
-    timeShown.textContent = `${Math.floor(timeSpan / 60)}:${Math.floor(
+    timeShown.textContent = `${Math.floor(timeSpan / 60)}:${"0" + Math.floor(
       timeSpan % 60
     )}`;
   });
@@ -53,6 +54,14 @@ song.ontimeupdate = function() {
   let elapsed = timeSpan - currentTime;
   let seconds = Math.floor(elapsed % 60);
   let minutes = Math.floor(elapsed / 60);
+  
+  if(seconds < 10){ 
+    seconds = "0" +seconds;
+  } 
+  if (minutes < 10) {
+            minutes = "0" + minutes;
+  }
+
   timeShown.textContent = `${minutes}:${seconds}`;
 
   if (currentTime >= timeSpan) {
