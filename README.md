@@ -9,7 +9,7 @@ Float is an interactive mindfulness app that helps users relax and alleviate str
 * allow the app to display two different themes, each capable of running the duration of the chosen time
 * allow the user play/pause functionality that pauses both the audio and visual components of the app
 
-<img width="1792" alt="Screen Shot 2021-08-10 at 3 27 15 PM" src="https://user-images.githubusercontent.com/77473921/128930437-633c04f0-389c-419b-afe6-699678013eaa.png">
+<img width="1792" alt="Screen Shot 2021-10-07 at 3 50 41 PM" src="https://user-images.githubusercontent.com/77473921/136460313-0b6c2893-bddd-4b32-ac97-63705037ded6.png">
 
 ## Technologies and APIs:
 
