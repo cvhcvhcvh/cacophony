@@ -1,6 +1,6 @@
 ## Background:
 
-Float is an interactive mindfulness app that helps users relax and alleviate stress through audio and visual decompression.  Users choose both temporal and thematic constraints based on availability so that maximum functionality can be achieved for each specific user.  Instructions on how to choose each time parameter and audio/visual cue will dictate the duration of the meditation.  A user can choose to float for 1 minute, 5 minutes, or 10 minutes while also deciding between two distinct preset songs and backgrounds.  
+[Float](https://cvhcvhcvh.github.io/float/) is an interactive mindfulness app that helps users relax and alleviate stress through audio and visual decompression.  Users choose both temporal and thematic constraints based on availability so that maximum functionality can be achieved for each specific user.  Instructions on how to choose each time parameter and audio/visual cue will dictate the duration of the meditation.  A user can choose to float for 1 minute, 5 minutes, or 10 minutes while also deciding between two distinct preset songs and backgrounds.  
 
 ## Functionality and MVPs:
 
